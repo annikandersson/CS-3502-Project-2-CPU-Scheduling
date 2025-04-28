@@ -1,7 +1,7 @@
 # CS 3502 Project 2: CPU Scheduling Simulator
 
-**Course:** CS 3502 (Operating Systems)  
-**University:** Kennesaw State University, Department of Computer Science  
+**Course:** CS 3502 (Operating Systems), Section W03 
+**Professor:** Christopher Reagan
 **Start Date:** March 17, 2025  
 **Due Date:** April 25, 2025  
 
@@ -18,7 +18,7 @@ This repository contains a Java-based console application that simulates six CPU
 5. **Shortest Remaining Time First (SRTF)** *(new)*
 6. **Multi-Level Feedback Queue (MLFQ)** *(new)*
 
-Users can load a fixed test workload of five processes, select an algorithm, and view per-process metrics (start, finish, waiting, turnaround, response) as well as summary performance metrics (average waiting time, turnaround time, response time, CPU utilization, throughput).
+Users can load a fixed test set of five processes, select an algorithm, and view each processes metrics (start, finish, waiting, turnaround, response) as well as performance metrics (average waiting time, turnaround time, response time, CPU utilization, throughput).
 
 ---
 
@@ -26,10 +26,10 @@ Users can load a fixed test workload of five processes, select an algorithm, and
 
 ```
 ├── Process.java               # Process Control Block (PCB) class
-├── SchedulingAlgorithms.java  # Static methods for all 6 scheduling algorithms
-├── Scheduler.java             # Main class: console menu & test data loader
+├── SchedulingAlgorithms.java  # Methods for all 6 scheduling algorithms
+├── Scheduler.java             # Main class - console menu & test data loader
 ├── README.md                  # This document
-└── .gitignore                 # Exclude compiled binaries and metadata
+└── .gitignore                 
 ```
 
 ---
