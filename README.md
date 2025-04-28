@@ -1,4 +1,4 @@
-# CS 3502 Project 2: CPU Scheduling Simulator
+# CS 3502 Project 2: CPU Scheduling
 
 **Course:** CS 3502 (Operating Systems), Section W03 
 **Professor:** Christopher Reagan
